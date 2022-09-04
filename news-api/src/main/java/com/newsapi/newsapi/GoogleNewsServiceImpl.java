@@ -8,7 +8,7 @@ import org.springframework.web.client.RestTemplate;
 public class GoogleNewsServiceImpl implements GoogleNewsService{
 
 	public static final String URL ="https://newsapi.org/v2/everything?"; 
-	public static final String KEY ="<API-KEY>"; 
+	public static final String KEY ="API-KEY"; 
 	
 	@Override
 	public String getNews(String newsKey) {
